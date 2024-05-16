@@ -1,0 +1,19 @@
+link: https://edgarcolina22.pythonanywhere.com/
+
+en https://edgarcolina22.pythonanywhere.com/vehiculos
+para agregar se hace una solicitud post con los parametros placa, marca, modelo, color
+para modificar Put se usa el link https://edgarcolina22.pythonanywhere.com/vehiculos/{id} con los mismos parametros
+para eliminar delete usa https://edgarcolina22.pythonanywhere.com/vehiculos/{id}
+para mostrar get https://edgarcolina22.pythonanywhere.com/vehiculos 
+
+en https://edgarcolina22.pythonanywhere.com/espacios
+para agregar se hace una solicitud post con los parametros ubicacion, ocupado(1 o 0)
+para modificar Put se usa el link https://edgarcolina22.pythonanywhere.com/espacios/{id} con los mismos parametros
+para eliminar delete usa https://edgarcolina22.pythonanywhere.com/espacios/{id}
+para mostrar get https://edgarcolina22.pythonanywhere.com/espacios 
+
+en https://edgarcolina22.pythonanywhere.com/tickets 
+para agregar se hace una solicitud post con los parametros total_pagar, vehiculo_id, espacio_id
+para modificar Put se usa el link https://edgarcolina22.pythonanywhere.com/tickets/{id} con los mismos parametros
+para eliminar delete usa https://edgarcolina22.pythonanywhere.com/tickets/{id}
+para mostrar get https://edgarcolina22.pythonanywhere.com/tickets
